@@ -12,16 +12,29 @@ class list1 {
     this.get8();
     this.get9();
     this.get10();
+    //加入购物车使用事件委托
+    this.$('.findn').addEventListener('click',this.tiaozhuan1.bind(this)) 
+    // console.log(this.$('.erfenyi .ac'));
+    }
+   
+    //获取购物车的方法
+    tiaozhuan1(eve){
+        // console.log(this);   
+        // console.log(eve.target);
+        //判断用户是否登录.如果获取到了token就表示登陆了
+        //getintem 获取值
+        let token = localStorage.getItem('token')
+        //assign 是跳转的意思   在location    还有一种跳转是herf
+        if(!token) location.assign('./登录页面.html?ReturnUrl=./oppo商城.html')
     }
     //获取数据的方法
     async getdata() {
         //获取ajax请求
         let res = await axios.get('http://localhost:3000/one')
-        console.log(res);
         let aa  ='<div class="findn"></div> '
         res.data.forEach((item)=>{
            aa+=`
-           <div class="findn">
+           <div class="findn" data-id="${item.id}">
            <img src="${item.src}" alt="">
            <p>${item.name}</p>
            <span class="small">卷后价</span>
@@ -29,7 +42,6 @@ class list1 {
            <span class="big">${item.price}</span>
            </div> 
            ` 
-        
         })
         this.$('.findn').innerHTML=aa
     }
@@ -38,7 +50,6 @@ class list1 {
     async get2() {
         //获取ajax请求
         let res = await axios.get('http://localhost:3000/three')
-        console.log(res);
         let aa  ='<div class="findx1"></div> '
         res.data.forEach((item)=>{
            aa+=`
@@ -57,7 +68,6 @@ class list1 {
     async get1(){
         //获取ajax请求
         let res = await axios.get('http://localhost:3000/fourth')
-        console.log(res);
         let aa = ' <div class="findx2"></div>'
         res.data.forEach(item=>{
             aa+=`
@@ -77,7 +87,6 @@ class list1 {
     async get3(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/five')
-        console.log(res);
         let aa1 = '<div class="reno"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -97,7 +106,6 @@ class list1 {
      async get4(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/six')
-        console.log(res);
         let aa1 = '<div class="reno1"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -118,7 +126,6 @@ class list1 {
     async get5(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/seven')
-        console.log(res);
         let aa1 = '<div class="reno2"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -138,7 +145,6 @@ class list1 {
     async get6(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/eight')
-        console.log(res);
         let aa1 = '<div class="reno3"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -158,7 +164,6 @@ class list1 {
     async get7(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/night')
-        console.log(res);
         let aa1 = '<div class="reno4"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -178,7 +183,6 @@ class list1 {
        async get8(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/ten')
-        console.log(res);
         let aa1 = '<div class="reno5"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -198,7 +202,6 @@ class list1 {
     async get9(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/eleven')
-        console.log(res);
         let aa1 = '<div class="reno6"></div>'
         res.data.forEach(item=>{
             aa1+=`
@@ -218,7 +221,6 @@ class list1 {
      async get10(){
         //获取ajax请求
         let res = await axios.get(' http://localhost:3000/twelve')
-        console.log(res);
         let aa1 = '<div class="reno7"></div>'
         res.data.forEach(item=>{
             aa1+=`
