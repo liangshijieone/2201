@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.tou{
+    width: 1264px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+.tou div a{
+    color: white;
+    font-size: 13px;
+    margin-left: 24px;
+}
+.icon-yonghuming{
+    color: white;
+}
+.icon-gouwuche{
+    color: white;
+}
+.touul{
+    display: flex;
+    font-size: 13px;
+}
+.touul li a{
+    color: white;
+}
+.tou li:nth-child(1){
+    width: 143.39px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(2){
+    width: 73px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(3){
+    width: 53px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(4){
+    width:101.34px;
+    text-align: center;
+}
+
+/* 固定 */
+.guding{
+  position: sticky;
+  top: 34px;
+  left: 0;
+  z-index: 9;
+background-color: white;
+}
+.guding1{
+  width: 1264px;
+  height: 84px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.guding1 img{
+    width:238.03px;
+    height: 50px;
+}
+.gudingimg{
+    width: 250px;
+    height: 50px;
+}
+.liebiao{
+    width: 810px;
+    height: 84px;
+    /* background-color: blue; */
+}
+.liebiaoul{
+    height: 84px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.liebiaoul li a {
+    color: inherit;
+    opacity:0.55;
+    font-size: 14px;
+}
+.sousuo{
+    width: 160px;
+    height: 36px;
+    background-color: rgba(95, 26, 26, 0.082);
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sousuo input{
+    width: 114px;
+    height: 21px;
+    outline: none;
+    border: 0px;
+    background-color: rgba(95, 26, 26, 0);
+}
+.main{
+    width: 1264px;
+    height: 1264px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.box1{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.39);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 img{
+    width: 200px;
+    height: 200px;
+}
+.bix1>a{
+   font-size: 30px;
+   color: black;
+}

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.tou{
+    width: 1264px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+.tou div a{
+    color: white;
+    font-size: 13px;
+    margin-left: 24px;
+}
+.icon-yonghuming{
+    color: white;
+}
+.icon-gouwuche{
+    color: white;
+}
+.touul{
+    display: flex;
+    font-size: 13px;
+}
+.touul li a{
+    color: white;
+}
+.tou li:nth-child(1){
+    width: 143.39px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(2){
+    width: 73px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(3){
+    width: 53px;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.tou li:nth-child(4){
+    width:101.34px;
+    text-align: center;
+}
+
+/* 固定 */
+.guding{
+  position: sticky;
+  top: 34px;
+  left: 0;
+  z-index: 9;
+background-color: white;
+}
+.guding1{
+  width: 1264px;
+  height: 84px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.guding1 img{
+    width:238.03px;
+    height: 50px;
+}
+.gudingimg{
+    width: 250px;
+    height: 50px;
+}
+.liebiao{
+    width: 810px;
+    height: 84px;
+    /* background-color: blue; */
+}
+.liebiaoul{
+    height: 84px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.liebiaoul li a {
+    color: inherit;
+    opacity:0.55;
+    font-size: 14px;
+}
+.sousuo{
+    width: 160px;
+    height: 36px;
+    background-color: rgba(95, 26, 26, 0.082);
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sousuo input{
+    width: 114px;
+    height: 21px;
+    outline: none;
+    border: 0px;
+    background-color: rgba(95, 26, 26, 0);
+}
+.gouwu{
+    width: 1264px;
+    /* height: 500px; */
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 20px;
+}
+h3{
+    height: 30px;
+    line-height: 30px;
+    /* background-color: blue; */
+}
+.tou1{
+    width: 1264px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.096);
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin-left: 5px; 
+}
+.tou2{
+    height: 30px;
+    width: 1210px;
+    /* background-color:orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tou2 p:nth-child(1){
+    width: 400px;
+    /* background-color: red; */
+    text-align: center;
+}
+.tou2 p:nth-child(2){
+    width: 130px;
+    padding-left: 20px;
+    /* text-align: center; */
+}
+.tou2 p:nth-child(3){
+    width: 200px;
+    /* background-color: red; */
+    text-align: center;
+}
+.tou2 p:nth-child(4){
+    width: 150px;
+    text-align: center;
+}
+.tou2 p:nth-child(5){
+    width: 110px;
+    padding-left: 40px;
+    /* text-align: center; */
+}
+.shangpin1{
+    width: 1264px;
+    /* height: 200px; */
+    /* background-color: skyblue; */
+}
+.diyige{
+    width: 1264px;
+    height: 100px;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.diyige input{
+    margin-left: 5px;
+}
+.diyige img{
+    width: 100px;
+    height: 100px;
+}
+.tu1{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.you{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.you p:nth-child(1){
+    width: 250px;
+    text-align: center;
+}
+.p1{
+    width: 150px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.p1 button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.last{
+    text-align: center;
+}
+.jiesuan{
+    width: 500px;
+    height: 100px;
+    /* background-color: yellow; */
+    float: right;
+    display: flex;
+    /* align-items: center; */
+}
+.aa p:nth-child(2){
+    margin-left: 175px;
+}
+.jiesuan button{
+    width: 203px;
+    height: 50px;
+    background-color: red;
+}

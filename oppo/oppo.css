@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    height: 2000px;
     position: relative;
 }
 li{
@@ -231,7 +230,6 @@ background-color: white;
     margin: auto; 
     display: flex;
     justify-content: space-around;
-    
 }
 .erfenyi>div{
     width: 632px;
@@ -245,8 +243,8 @@ background-color: white;
     height: 220px;
     transition: all 1s;
 }
-.erfenyi>div>img.ac{
-    box-shadow: 5px 5px 30px 5px red;
+.erfenyi div img:hover{
+    box-shadow: 5px 5px 5px 5px red;
 }
 
 
@@ -271,7 +269,7 @@ background-color: white;
     height: 220px;
     transition: all 1s;
 }
-.sifenyi>div>img.ac{
+.sifenyi div img:hover{
     box-shadow: 5px 5px 30px 5px red;
 }
 
@@ -326,9 +324,33 @@ background-color: white;
     height: 300px;
     text-align: center;
 }
-.findn div:nth-child(1) img{
+.datu1{
     width: 488.39px;
-    height: 300px;
+    height: 316px;
+    margin-left: 50px;
+    transition: all 1s;
+    position: absolute;
+}
+.datu1 img{
+    width: 488.39px;
+    height: 316px;
+}
+.datu2{
+    width: 510.39px;
+    height: 316px;
+    margin-left: 50px;
+    transition: all 1s;
+    position: absolute;
+}
+.datu2 img{
+    width: 510.39px;
+    height: 316px;
+}
+.datu2:hover{
+    box-shadow: 5px 5px 10px 5px black;
+}
+.datu1:hover{
+    box-shadow: 5px 5px 10px 5px black;
 }
 .findn div:nth-child(2) img{
     width: 130px;
@@ -345,16 +367,65 @@ background-color: white;
 .findn>div:hover{
     box-shadow: 5px 5px 10px 5px black;
 }
-.findx1>div.ac{
+.findx1>div:hover{
     box-shadow: 5px 5px 10px 5px black;
 }
-.findx2>div.ac{
+.findx2>div:hover{
     box-shadow: 5px 5px 10px 5px black;  
 }
-.reno>div.ac{
+.reno>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno1>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno2>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno3>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno4>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno5>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno6>div:hover{
+    box-shadow: 5px 5px 10px 5px black;  
+}
+.reno7>div:hover{
     box-shadow: 5px 5px 10px 5px black;  
 }
 .reno>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno1>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno2>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno3>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno4>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno5>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno6>div{
+    transition: all 1s;
+    cursor: pointer; 
+}
+.reno7>div{
     transition: all 1s;
     cursor: pointer; 
 }
@@ -391,28 +462,28 @@ background-color: white;
     justify-content: space-around;
 }
 .findx1 div:nth-child(1){
-    width: 488.39px;
+    width: 488.19px;
     height: 300px;
-    background-color:yellow;
-    margin-right: 18px;
+    text-align: center;
+    /* background-color:yellow; */
 }
 .findx1 div:nth-child(2){
     width: 235.19px;
     height: 300px;
     text-align: center;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 .findx1 div:nth-child(3){
     width: 235.19px;
     height: 300px;
     text-align: center;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 .findx1 div:nth-child(4){
     width: 235.19px;
     height: 300px;
     text-align: center;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 .findx2{
     width: 1266px;
@@ -422,49 +493,26 @@ background-color: white;
     display: flex;
     justify-content: space-around;
 }
-.findx2 div{
+.findx22{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
 }
-.findx2 p {
+.findx22 p {
     width: 211.19px;
     height: 22.5px;
     font-size: 15px;
 }
-.findx2 span{
+.findx22 span{
     color: red;
 }
-.findx2 div:nth-child(1){
+.findx22{
     width: 235.19px;
     height: 300px;
     text-align: center;
-    background-color: orange;
-}
-.findx2 div:nth-child(2){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.findx2 div:nth-child(3){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.findx2 div:nth-child(4){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.findx2 div:nth-child(5){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
+    /* background-color: orange; */
 }
 .findx1 div:nth-child(1) img{
     width: 488.39px;
@@ -482,25 +530,15 @@ background-color: white;
     width: 130px;
     height: 150px;
 }
-.findx2 div:nth-child(1) img{
+.findx22 img{
     width: 130px;
     height: 150px;
 }
-.findx2 div:nth-child(2) img{
-    width: 130px;
-    height: 150px;
+.big{
+    font-size: 27.27px;
 }
-.findx2 div:nth-child(3) img{
-    width: 130px;
-    height: 150px;
-}
-.findx2 div:nth-child(4) img{
-    width: 130px;
-    height: 150px;
-}
-.findx2 div:nth-child(5) img{
-    width: 130px;
-    height: 150px;
+.small{
+    font-size: 18px;
 }
 .reno{
     width: 1266px;
@@ -525,102 +563,260 @@ background-color: white;
 .reno span{
     color: red;
 }
-.big{
-    font-size: 27.27px;
-}
-.small{
-    font-size: 18px;
-}
 .reno div:nth-child(1){
     width: 488.39px;
     height: 300px;
     text-align: center;
     margin-right :18px  ;
-    background-color: orange;
+    /* background-color: orange; */
 }
-.reno div:nth-child(2){
+.op{
     width: 235.19px;
     height: 300px;
     text-align: center;
-    background-color: orange;
+    /* background-color: orange; */
 }
-.reno div:nth-child(3){
-    width: 235.19px;
+.op img{
+    width: 130px;
+    height: 150px;
+}
+.reno1{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.reno1 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno1 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno1 span{
+    color: red;
+}
+.reno1 div:nth-child(1){
+    width: 488.39px;
     height: 300px;
     text-align: center;
-    background-color: orange;
+    margin-right :18px  ;
+    /* background-color: orange; */
 }
-.reno div:nth-child(4){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(5){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(6){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(7){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(8){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(9){
-    width: 235.19px;
-    height: 300px;
-    text-align: center;
-    background-color: orange;
-}
-.reno div:nth-child(1) img{
+.reno1 div:nth-child(1) img{
     width: 488.39px;
     height: 300px;
 }
-.reno div:nth-child(2) img{
-    width: 130px;
-    height: 150px;
+.reno2{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
-.reno div:nth-child(3) img{
-    width: 130px;
-    height: 150px;
+.reno2 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.reno div:nth-child(4) img{
-    width: 130px;
-    height: 150px;
+.reno2 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
 }
-.reno div:nth-child(5) img{
-    width: 130px;
-    height: 150px;
+.reno2 span{
+    color: red;
 }
-.reno div:nth-child(6) img{
-    width: 130px;
-    height: 150px;
+.reno2 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
 }
-.reno div:nth-child(7) img{
-    width: 130px;
-    height: 150px;
+.reno2 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
 }
-.reno div:nth-child(8) img{
-    width: 130px;
-    height: 150px;
+.reno3{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
-.reno div:nth-child(9) img{
-    width: 130px;
-    height: 150px;
+.reno3 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno3 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno3 span{
+    color: red;
+}
+.reno3 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
+}
+.reno3 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
+}
+.reno4{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.reno4 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno4 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno4 span{
+    color: red;
+}
+.reno4 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
+}
+.reno4 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
+}
+.reno5{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.reno5 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno5 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno5 span{
+    color: red;
+}
+.reno5 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
+}
+.reno5 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
+}
+.reno6{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.reno6 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno6 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno6 span{
+    color: red;
+}
+.reno6 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
+}
+.reno6 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
+}
+.reno7{
+    width: 1266px;
+    height: 636px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.reno7 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reno7 p{
+    width: 211.19px;
+    height: 22.5px;
+    font-size: 15px;
+}
+.reno7 span{
+    color: red;
+}
+.reno7 div:nth-child(1){
+    width: 488.39px;
+    height: 300px;
+    text-align: center;
+    margin-right :18px  ;
+    /* background-color: orange; */
+}
+.reno7 div:nth-child(1) img{
+    width: 488.39px;
+    height: 300px;
 }
 .guanyu{
     width: 1248px;
@@ -641,11 +837,12 @@ background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 88px;
+    padding-bottom: 88px; 
 }
 .datu img{
     width: 1248px;
     height: 416.63px;
+    transition: all 1s;
 }
 .datu img:hover{
     box-shadow: 5px 5px 20px 5px black;
@@ -653,7 +850,7 @@ background-color: white;
 .baoxiu{
     width: 1248px;
     height: 82px;
-    background-color: red;
+    /* background-color: red; */
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -662,13 +859,16 @@ background-color: white;
 .baoxiu div{
     width: 199.67px;
     height: 82px;
-    background-color: blue;
+    /* background-color: blue; */
     text-align: center;
 }
 .baoxiu img{
     width: 50px;
     height: 50px;
     margin-bottom: 8px;
+}
+.baoxiu p{
+   color: rgba(0, 0, 0, 0.411);
 }
 .banxin{
     width: 1264px;
@@ -692,7 +892,10 @@ background-color: white;
 .banxin div:nth-child(2){
     width: 334.2px;
     height: 360px;
-    background-color: orange;
+    /* background-color: orange; */
+}
+.banxinul ul li:nth-child(1) a{
+    color: black;
 }
 .banxinul ul li:nth-child(1){
     color: black;
@@ -703,15 +906,19 @@ background-color: white;
     margin-bottom: 12px;
     color:rgba(0, 0, 0, 0.521)
 }
+.banxinul ul li a{
+    color:rgba(0, 0, 0, 0.521)
+}
 .kefu div{
     width: 173px;
     height: 51px;
-    background-color:blue;
+    background-color:black;
     border-radius: 51px;
     margin-left: 160px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
 }
 .foot{
     width: 1268px;
@@ -737,6 +944,7 @@ background-color: white;
 }
 .foot1 a{
     margin-right: 3px;
+    color: black;
 }
 .jinghui{
     width: 200px;
