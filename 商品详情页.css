@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    height: 2000px;
     position: relative;
 }
 li{
@@ -77,11 +76,11 @@ background-color: white;
 .guding1{
   width: 1264px;
   height: 84px;
+  /* background-color: red; */
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
 .guding1 img{
     width:238.03px;
@@ -94,6 +93,7 @@ background-color: white;
 .liebiao{
     width: 810px;
     height: 84px;
+    /* background-color: blue; */
 }
 .liebiaoul{
     height: 84px;
@@ -122,107 +122,29 @@ background-color: white;
     border: 0px;
     background-color: rgba(95, 26, 26, 0);
 }
-.fangdajing{
+.main{
     width: 1264px;
-    height: 600px;
-    margin: auto;
-    position: relative;
-    display: flex;
-}
-.img{
-    width: 600px;
-    height: 600px;
-    background-color: red;
-    position: relative;
-}
-.img div{
-    width: 100px;
-    height: 100px;
-    background-color: rgba(255, 192, 203, 0.363);
-    position: absolute;
-    top:0;
-    left: 0;
-    display: none;
-}
-.img img{
-    width: 600px;
-    height: 600px;
-}
-.img1{
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    display: none;
-    position: absolute;
-    top: 20px;
-    left: 700px;
-    overflow: hidden;
-}
-.img1 img{
-    position: absolute;
-    width:900px;
-    height:900px;
-}
-.aa{
-    width: 600px;
-    height: 500px;
+    height: 1264px;
     /* background-color: red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
-.aa p:nth-child(1){
-    font-size: 30px;
+.box1{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.062);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.aa p:nth-child(1) span{
-    color:blue;
-}
-.aa p:nth-child(2){
-    color:blue;
-}
-.bb{
-    width: 600px;
-    height: 170px;
-    background-color:rgba(0, 0, 0, 0.137);
-    font-size: 25px;
-    padding-top: 30px;
-}
-.bb span:nth-child(2){
-    margin-left: 30px;
-    color: red;
-}
-.bb span:nth-child(3){
-    margin-left: 40px;
-    color: red;
-}
-.cc{
-    width: 600px;
-    height: 150px;
-    /* background-color:skyblue; */
-    padding-top: 30px;
-}
-.cc span:nth-child(2){
-    border: 1px solid black;
-}
-.cc span:nth-child(3){
-    margin-right: 50px;
-}
-.cc p{
-    margin-left: 110px;
-    margin-top: 20px; 
-}
-.cc p span:nth-child(1){
-    border: 1px solid black;
-}
-.dd{
-    width: 600px;
-    text-align: center;
-}
-.dd button{
+.box1 img{
     width: 200px;
-    height: 50px;
-    background-color: white;
-    margin-left: 10px;
-    margin-top: 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
-    background-color: red;
+    height: 200px;
+}
+.bix1>a{
+   font-size: 30px;
+   color: black;
 }

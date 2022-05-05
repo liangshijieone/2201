@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .zhuce{
+            width: 100%;
+            height: 857px;
+            background-color: #F7F7F7;
+            overflow: hidden;
+        }
+        .box{
+            width: 860px;
+            height: 670px;
+            background-color: #ffff;
+            /* background-color: red; */
+            margin: 80px auto;
+        }
+        img{
+            width: 160px;
+            height: 42px;
+            margin-left: 350px;
+            margin-top: 50px;
+        }
+        .title{
+            width: 860px;
+            height: 28.8px;
+            color: #000000;
+            font: 22px HYQiHei-FZS;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .box-1{
+            width: 360px;
+            height: 279.2px;
+            /* background-color: blue; */
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+        .box-1>.one{
+            width: 360px;
+            height: 46px;
+            color: #000000;
+            font-size: 16px;
+        }
+        .box-1>.two{
+            width: 94px;
+            height: 46px;
+            color: #000000;
+            font-size: 16px;
+        }
+        .box-1>p{
+            width: 360px;
+            height: 19px;
+            color: #999999;
+            font-size: 14px;
+            margin: 10px 0px 10px;
+        }
+        .text{
+            width: 246px;
+            height: 43px;
+
+        }
+        .checkbox{
+            width: 18px;
+            height: 18px;
+            margin-top: 20px;
+        }
+        span{
+            font-size: 14px;
+            margin-top: 0px;
+        }
+        a{
+            font-size: 14px;
+        }
+        button{
+            width: 360px;
+            height: 48px;
+            background-color: #609DE8;
+            color: white;
+            margin: 30px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <form action=""  onsubmit="return false" >
+        <div class="zhuce">
+            <div class="box">
+                <img src="./images/webp (11).webp" alt="">
+                <div class="title">账号注册</div>
+                <div class="box-1">
+                    <select class="one">
+                        <option value="">中国</option>
+                        <option value="">中国台湾</option>
+                        <option value="">中国香港</option>
+                        <option value="">安道尔</option>
+                        <option value="">阿富汗</option>
+                    </select>
+                    <p>成功注册账号后,国家/地区将不能被修改</p>
+                    <select class="two">
+                        <option value="">中国 +86</option>
+                        <option value="">印度 +91</option>
+                        <option value="">泰国 +66</option>
+                        <option value="">印度尼西亚 +62</option>
+                    </select>
+                    <input type="text" class="text" name="user" value=""><br>
+                    <input type="checkbox" class="checkbox"><span>我已阅读并接受</span><a>《服务协议》</a><span>和</span><a>《隐私政策》</a><br>
+                    <button>下一步</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<!-- <script>
+    var form,ids;
+    init();
+    function init(){
+        form=document.querySelector("form");
+        form.addEventListener("input",inputHandler);
+        form.addEventListener("submit",submitHandler);
+    }
+
+    function inputHandler(e){
+        if(ids) return;
+        ids=setTimeout(function(input){
+            clearTimeout(ids);
+            ids=undefined;
+            setInputStyle(input)
+        },500,e.target);
+    }
+
+
+    function setInputStyle(input){
+        if(judgeInput(input.name,input.value)){
+            input.parentElement.parentElement.className="form-group  has-feedback has-success"
+            input.nextElementSibling.className="glyphicon  glyphicon-ok form-control-feedback"
+        }else{
+            input.parentElement.parentElement.className="form-group  has-feedback has-error"
+            input.nextElementSibling.className="glyphicon  glyphicon-remove form-control-feedback"
+        }
+    }
+
+    // 判断密码类型
+    function judgeInput(name,value){
+        switch(name){
+            case "user":
+                return /^\w{8,30}$/.test(value);
+            case "password":
+                return /^(?=\D+\d)(?=.*[a-z])(?=.*[A-Z])\w{8,18}$/.test(value);
+        }
+    }
+
+  async  function submitHandler(e){
+        e.preventDefault();
+        var fd=new FormData(this);
+        // console.log(fd);
+        var obj={}
+        
+        for(var [name,value] of fd){
+            if(!judgeInput(name,value)){
+                document.querySelector(`[name=${name}]`).focus();
+                return;
+            }
+            obj[name]=value;
+        }
+        console.log(obj);
+        var response=await fetch("http://localhost:4010/signup",{
+            method:"POST",
+            body:JSON.stringify(obj)
+        });
+        var data=await response.json();
+        console.log(data);
+        // location.href="./"
+    }
+</script> -->
+<script src="./注册.js"></script>
+</html>

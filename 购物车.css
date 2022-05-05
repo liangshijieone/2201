@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    height: 2000px;
     position: relative;
 }
 li{
@@ -77,11 +76,11 @@ background-color: white;
 .guding1{
   width: 1264px;
   height: 84px;
+  /* background-color: red; */
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
 .guding1 img{
     width:238.03px;
@@ -94,6 +93,7 @@ background-color: white;
 .liebiao{
     width: 810px;
     height: 84px;
+    /* background-color: blue; */
 }
 .liebiaoul{
     height: 84px;
@@ -122,107 +122,127 @@ background-color: white;
     border: 0px;
     background-color: rgba(95, 26, 26, 0);
 }
-.fangdajing{
+.gouwu{
     width: 1264px;
-    height: 600px;
+    /* height: 500px; */
+    /* background-color: red; */
     margin: auto;
-    position: relative;
+    margin-top: 20px;
+}
+h3{
+    height: 30px;
+    line-height: 30px;
+    /* background-color: blue; */
+}
+.tou1{
+    width: 1264px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.096);
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin-left: 5px; 
+}
+.tou2{
+    height: 30px;
+    width: 1210px;
+    /* background-color:orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tou2 p:nth-child(1){
+    width: 400px;
+    /* background-color: red; */
+    text-align: center;
+}
+.tou2 p:nth-child(2){
+    width: 130px;
+    padding-left: 20px;
+    /* text-align: center; */
+}
+.tou2 p:nth-child(3){
+    width: 200px;
+    /* background-color: red; */
+    text-align: center;
+}
+.tou2 p:nth-child(4){
+    width: 150px;
+    text-align: center;
+}
+.tou2 p:nth-child(5){
+    width: 110px;
+    padding-left: 40px;
+    /* text-align: center; */
+}
+.shangpin1{
+    width: 1264px;
+    /* height: 200px; */
+    /* background-color: skyblue; */
+}
+.diyige{
+    width: 1264px;
+    height: 100px;
+    /* background-color: skyblue; */
     display: flex;
 }
-.img{
-    width: 600px;
-    height: 600px;
-    background-color: red;
-    position: relative;
+.diyige input{
+    margin-left: 5px;
 }
-.img div{
+.diyige img{
     width: 100px;
     height: 100px;
-    background-color: rgba(255, 192, 203, 0.363);
-    position: absolute;
-    top:0;
-    left: 0;
-    display: none;
 }
-.img img{
-    width: 600px;
-    height: 600px;
+.tu1{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
-.img1{
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    display: none;
-    position: absolute;
-    top: 20px;
-    left: 700px;
-    overflow: hidden;
+.you{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.img1 img{
-    position: absolute;
-    width:900px;
-    height:900px;
+.you p:nth-child(1){
+    width: 250px;
+    text-align: center;
 }
-.aa{
-    width: 600px;
-    height: 500px;
-    /* background-color: red; */
-}
-.aa p:nth-child(1){
+.p1{
+    width: 150px;
     font-size: 30px;
+    display: flex;
+    align-items: center;
 }
-.aa p:nth-child(1) span{
-    color:blue;
+.p1 button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.last{
+    text-align: center;
+}
+.jiesuan{
+    width: 500px;
+    height: 100px;
+    /* background-color: yellow; */
+    float: right;
+    display: flex;
+    /* align-items: center; */
 }
 .aa p:nth-child(2){
-    color:blue;
+    margin-left: 175px;
 }
-.bb{
-    width: 600px;
-    height: 170px;
-    background-color:rgba(0, 0, 0, 0.137);
-    font-size: 25px;
-    padding-top: 30px;
-}
-.bb span:nth-child(2){
-    margin-left: 30px;
-    color: red;
-}
-.bb span:nth-child(3){
-    margin-left: 40px;
-    color: red;
-}
-.cc{
-    width: 600px;
-    height: 150px;
-    /* background-color:skyblue; */
-    padding-top: 30px;
-}
-.cc span:nth-child(2){
-    border: 1px solid black;
-}
-.cc span:nth-child(3){
-    margin-right: 50px;
-}
-.cc p{
-    margin-left: 110px;
-    margin-top: 20px; 
-}
-.cc p span:nth-child(1){
-    border: 1px solid black;
-}
-.dd{
-    width: 600px;
-    text-align: center;
-}
-.dd button{
-    width: 200px;
+.jiesuan button{
+    width: 203px;
     height: 50px;
-    background-color: white;
-    margin-left: 10px;
-    margin-top: 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
     background-color: red;
 }
