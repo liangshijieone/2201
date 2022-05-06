@@ -83,10 +83,10 @@ class oo {
     }
     async post(eve) {
         let aa = location.search;
-        aa = aa.slice(1, aa.length)
+        // aa = aa.slice(1, aa.length)
         //   console.log(aa);
         let bb = ''
-        let { data, status } = await axios.get('http://localhost:8888/goods/item' + '?' + aa)
+        let { data, status } = await axios.get('http://localhost:8888/goods/item' + aa)
         console.log(data);
         if (status == 200) {
             bb += `
